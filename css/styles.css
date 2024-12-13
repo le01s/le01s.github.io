@@ -20,3 +20,43 @@ h1, h2, h3 {
 p {
     color: #bdbdbd;
 }
+
+.skill-item {
+    color: #bdbdbd;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.contact-item {
+    font-size: 18px;
+    color: #333;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
+    background-color: #e0f7fa;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+}

@@ -15,8 +15,12 @@
     border: 1px solid #ddd;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in;
-    border-radius: 10px;}
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Распределяем элементы по высоте */
+}
 
 .project:hover {
     transform: scale(1.01);
@@ -27,7 +31,9 @@
 
 .project img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Подгоняем изображение под размер */
+    border-radius: 10px;
 }
 
 .project h3 {

@@ -1,0 +1,19 @@
+/* About Section Styles */
+.about {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Делаем изображение круглым */
+    object-fit: cover; /* Подгоняем изображение под размер */
+}
